@@ -1,6 +1,16 @@
 # Proyecto-Final-STW
 Proyecto final donde se trabajara un portafolio personal con uso de la tecnologia Vue
 
+SISTEMAS Y TECNOLOGIAS WEB - SECCIÓN - 20 - 2023 - 1
+
+<h1 align="center">
+<br>
+  <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/888px-Vue.js_Logo_2.svg.png" alt="React" width="200"></a>
+<br>
+<br>
+-- Portafolio Personal --
+</h1>
+
 ## Requerimientos:
 
 Deben crear un portafolio demostrando las tecnologías web que conocen. Pueden utilizar los labs hechos durante el curso o pueden utilizar proyectos personales para respaldar sus conocimientos. Su portafolio es su carta de presentación personal y profesional al solicitar trabajos en el área de web y será evaluado como tal. Voy a tomar en cuenta tanto la estética como las tecnologías que utilicen y la calidad de su código. Supongan que están aplicando a un trabajo en donde la descripción del puesto son los temas vistos en clase. Recuerden que pueden enviar su trabajo cuantas veces quieran siempre que el curso no haya terminado.
@@ -25,13 +35,13 @@ https://docs.google.com/document/d/1fH0xGdx7f_CZwFeWq6qCHDYplWPNL1104kR2naJj3Lo/
 ## Getting started
 
 1. Clonar repositorio `https://github.com/ManuelR11/Proyecto-Final-STW`
-2. Moverse al directorio: `cd proyecto-2-STW`.<br />
+2. Moverse al directorio: `cd Portafolio-personal`.<br />
 3. Correr `npm install` para instalar dependencias.<br />
 4. Correr `npm run dev` para ver la página y correrla en el servidor personal (proporcionado por vite).
 
 ## Estructura
 
-- `TableTreck` carpeta donde se encuentra la configuracion (package.json, webpack)
+- `Portafolio-Personal` carpeta donde se encuentra la configuracion (package.json, vite)
 - - `src` carpeta donde se encuentra los archivos .vue .js y .css
 - - - `assets` carpeta donde se encuentran las fuentes, imagenes y vectores
 - - - `componentes` carpeta donde se encuentran los componentes del proyecto
