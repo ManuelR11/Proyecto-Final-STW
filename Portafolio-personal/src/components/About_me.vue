@@ -1,9 +1,9 @@
 <template>
     <div class="general">
         <div class="sobremi">
-            <div class="contenido-seccion">
+            <div class="contenido-seccion" id="sobremi">
                 <h2>Sobre Mí</h2>
-                <p><span>Hola, soy Nick Perez.</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam unde soluta minima necessitatibus, voluptas consectetur vero officiis quas, explicabo deleniti repellendus aliquid debitis maiores numquam voluptate reprehenderit in delectus dolores.</p>
+                <p><span>Hola, soy Manuel Rodas.</span> "Nunca rendirse", es una frase que me defina como persona, podre no ser perfeccto pero siempre estoy dispuesto a mejorar tanto laboral como personal. Soy un estudiante que se encuentra cursando 3 año en la Universidad del valle de Guatemala, en la carrera de ingenieria en ciencias de la computacion</p>
 
                 <div class="fila">
                     <!-- datos personales -->
@@ -11,28 +11,28 @@
                         <h3>Datos Personales</h3>
                         <ul>
                             <li>
-                                <strong>Cumpleaños</strong>
-                                15-01-1980
+                                <strong>Nacimiento</strong>
+                                13-02-2003
                             </li>
                             <li>
                                 <strong>Teléfono</strong>
-                                2555 5454545
+                                502 51278345
                             </li>
                             <li>
                                 <strong>Email</strong>
-                                cw@example.com
+                                rodasmanuel1@gmial.com
                             </li>
                             <li>
-                                <strong>Website</strong>
-                                www.example.com
+                                <strong><Git-Hub></Git-Hub></strong>
+                                https://github.com/ManuelR11
                             </li>
                             <li>
-                                <strong>Dirección</strong>
-                                123 San Luis, Argentina
+                                <strong>Nacionalidad</strong>
+                                Guatemala / Ciudad de Guatemala
                             </li>
                             <li>
                                 <strong>Cargo</strong>
-                                <span>FREELANCE</span>
+                                <span>FULL STACK</span>
                             </li>
                         </ul>
                     </div>
@@ -54,6 +54,7 @@
     color: white;
     height: 100vh;
     width: 100%;
+    margin-top: -55%;
     justify-content: center;
     align-items: center;
 }
@@ -116,7 +117,7 @@
   flex-direction: column;
   position: absolute;
   align-items: flex-start;
-  top: 165%;
+  top: 155%;
   right: 5%;
   width: fit-content;
   display: block;

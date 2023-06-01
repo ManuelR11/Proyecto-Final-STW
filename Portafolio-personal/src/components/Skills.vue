@@ -22,26 +22,26 @@
                         </div>
                     </div>
                     <div class="skill">
-                        <span>Photoshop</span>
+                        <span>Python</span>
                         <div class="barra-skill">
                             <div class="progreso">
-                                <span>95%</span>
+                                <span>85%</span>
                             </div>
                         </div>
                     </div>
                     <div class="skill">
-                        <span>Wordpress</span>
+                        <span>Java</span>
                         <div class="barra-skill">
                             <div class="progreso">
-                                <span>81%</span>
+                                <span>70%</span>
                             </div>
                         </div>
                     </div>
                     <div class="skill">
-                        <span>Drupa</span>
+                        <span>SQL</span>
                         <div class="barra-skill">
                             <div class="progreso">
-                                <span>55%</span>
+                                <span>65%</span>
                             </div>
                         </div>
                     </div>
@@ -53,7 +53,7 @@
                         <span>Comunicación</span>
                         <div class="barra-skill">
                             <div class="progreso">
-                                <span>80%</span>
+                                <span>90%</span>
                             </div>
                         </div>
                     </div>
@@ -77,7 +77,7 @@
                         <span>Dedicación</span>
                         <div class="barra-skill">
                             <div class="progreso">
-                                <span>65%</span>
+                                <span>85%</span>
                             </div>
                         </div>
                     </div>
@@ -85,7 +85,7 @@
                         <span>Proyect Management</span>
                         <div class="barra-skill">
                             <div class="progreso">
-                                <span>94%</span>
+                                <span>90%</span>
                             </div>
                         </div>
                     </div>
@@ -125,9 +125,9 @@ function efectoHabilidades() {
 <style scoped>  
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
 .container_general{
-    margin-top: -5%;
+    margin-top: -10%;
     height: 100vh;
-    width: 200%;
+    width: 130%;
     justify-content: center;
     align-items: center;
 }
@@ -208,7 +208,7 @@ function efectoHabilidades() {
 }
 @keyframes photoshop {
     0%{width: 0%;}
-    100%{width: 95%;}
+    100%{width: 85%;}
 }
 
 .skills .skill .wordpress{
@@ -217,7 +217,7 @@ function efectoHabilidades() {
 }
 @keyframes wordpress {
     0%{width: 0%;}
-    100%{width: 81%;}
+    100%{width: 70%;}
 }
 
 .skills .skill .drupal{
@@ -226,7 +226,7 @@ function efectoHabilidades() {
 }
 @keyframes drupal {
     0%{width: 0%;}
-    100%{width: 55%;}
+    100%{width: 65%;}
 }
 
 .skills .skill .comunicacion{
@@ -235,7 +235,7 @@ function efectoHabilidades() {
 }
 @keyframes comunicacion {
     0%{width: 0%;}
-    100%{width: 80%;}
+    100%{width: 90%;}
 }
 
 .skills .skill .trabajo{
@@ -262,7 +262,7 @@ function efectoHabilidades() {
 }
 @keyframes dedicacion {
     0%{width: 0%;}
-    100%{width: 65%;}
+    100%{width: 85%;}
 }
 
 .skills .skill .proyect{
@@ -271,6 +271,6 @@ function efectoHabilidades() {
 }
 @keyframes proyect {
     0%{width: 0%;}
-    100%{width: 94%;}
+    100%{width: 90%;}
 }
 </style>

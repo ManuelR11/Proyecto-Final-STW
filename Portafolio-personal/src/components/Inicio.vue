@@ -1,10 +1,12 @@
 <script setup>
 import About_me from './About_me.vue';
 import Skills from './Skills.vue';
+import Portafolio from './Portafolio.vue';
+import Contacto from './Contacto.vue';
 </script>
 
 <template>
-    <section class="inicio">
+    <section class="inicio" id="inicio">
             <div class="contenedor-img">
                 <img src="../assets/fondo1.jpg" alt="">
             </div>
@@ -12,11 +14,7 @@ import Skills from './Skills.vue';
                 <h1>Manuel Rodas</h1>
                 <h2>Estudiante de Ingenieria en Ciencias de la Computacion</h2>
                 <div class="redes">
-                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                    <a href="#"><i class="fa-brands fa-skype"></i></a>
-                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                    <a href="#"><i class="fa-solid fa-rss"></i></a>
+
                 </div>
             </div>
     </section>
@@ -25,6 +23,12 @@ import Skills from './Skills.vue';
     </section>
     <section class="skills">
         <Skills/>
+    </section>
+    <section class="portafolio">
+        <Portafolio/>
+    </section>
+    <section class="contacto">
+        <Contacto/>
     </section>
 </template>
 
